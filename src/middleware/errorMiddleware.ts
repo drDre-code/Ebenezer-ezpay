@@ -16,7 +16,6 @@ export const errorMiddleware =
           err.stack as string
         }\n`,
       );
-
       ctx.status = 500;
       ctx.body = {
         error: {
